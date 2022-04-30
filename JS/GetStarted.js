@@ -1,0 +1,1 @@
+var function(This will be the Getting Started JS)
