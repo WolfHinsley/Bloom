@@ -74,6 +74,8 @@ body {
     display: grid;
     place-items: center;
 
+    color:#305c06;
+
     background-image: url("../Images/container.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -94,3 +96,14 @@ body {
 
 .feature {background-color: #a9cf86;
 align-items:center;}
+
+.acc__title {text-align: left;
+  color:antiquewhite;
+  background-color: #c42a16;
+
+}
+.acc__panel {text-align: left;
+color:#305c06;
+background-color: #a9cf86;}
+
+.threeKingdoms {min-height: 400px; max-height: 500px; min-width:450px;max-width: 550px;}
