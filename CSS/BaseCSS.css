@@ -1,10 +1,11 @@
-
+/*Header section*/
 header{
     background: #5da718;
     ;
     color: #ffffff;
     padding-top: 20px;
     min-height: 90px;
+    text-shadow: .5px 1px #a9cf86;
   
   }
 
@@ -14,6 +15,7 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+    text-shadow: .5px 1px #a9cf86;
   }
   
   header li{
@@ -44,6 +46,8 @@ header{
     color: #cccccc;
     font-weight: bold;
   }
+
+  /*Opening Map*/
 #Greeting {text-align: center;}
 
   #welcome {
@@ -53,8 +57,10 @@ header{
     border-bottom: #305c06;
     border-bottom-width: 3pt;
     text-align: center;
-    color: #ffffff;
+    color: antiquewhite;
     position: relative;
+    text-decoration: #a9cf86;
+     text-shadow: 1px 2px #a9cf86;
 
   }
   
@@ -65,9 +71,11 @@ header{
   }
  #welcome p {text-align: center; text-size-adjust: small;}
 
-#container2{
+#container2{display:flex;
   background-color: antiquewhite;
 }
+
+/*Body*/
 body {
 
     position: absolute;
@@ -80,30 +88,67 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;}
-    /* visibility: hidden; */
+  
 
-    footer {background-color: #305c06;
-      border-top:#5da718;
-        color:#ffffff;
-        text-align: left; text-size-adjust: small;
-    }
-  #boxes {
+  .boxes {
     color: #c42a16;
     background-color: antiquewhite;
-    border: #305c06;
-    align-self: center;
+    border: #305c06 3pts solid;
+    display: grid;
+  grid-template-columns: auto auto auto;
   }
 
 .feature {background-color: #a9cf86;
 align-items:center;}
 
+.acc_card {position:relative;
+max-width: fit-content;
+min-width: 250pt; }
+
 .acc__title {text-align: left;
-  color:antiquewhite;
-  background-color: #c42a16;
+  background-color: antiquewhite;
+ color: #c42a16;
+ max-width: 800pt;
+min-width: 800pt;
 
 }
 .acc__panel {text-align: left;
 color:#305c06;
-background-color: #a9cf86;}
+background-color: #a9cf86;
+max-width: 800pt;
+min-width: 800pt;}
 
 .threeKingdoms {min-height: 400px; max-height: 500px; min-width:450px;max-width: 550px;}
+
+table {background-color: #a9cf86;
+border: #305c06 3pt solid;
+color:#305c06;
+position: center;
+padding: 10pt;
+margin: 15pt;
+}
+
+table.th {border:#305c06 1pt solid;}
+
+p {background-color: antiquewhite; 
+  color: #c42a16;
+  border: 2pt #c42a16 solid;
+  box-shadow: 2pt 2pt #aa210f;
+  width: 900px;
+  padding: 50px;
+  margin: 20px;
+font-size: large;}
+
+
+@media screen and (min-width: 480px) {
+  body, footer {margin-left: 216px;}
+
+}
+
+  
+/*Foot*/
+
+footer {background-color: #305c06;
+  border-top:#5da718 3pt solid;
+    color:#ffffff;
+    text-align: left; text-size-adjust: small;}
