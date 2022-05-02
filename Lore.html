@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="Bloom the Legend if Apres Interactive Web">
-        <meta name="author" content="Faith E Barrowcloiugh">
+        <meta name="author" content="Faith E Barrowclough">
+        <meta lang="en">
         <link rel="stylesheet" href="CSS/BaseCSS.css">
-    </head>    
-    <title>Lore</title>
-    <body>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Lore</title></head>    
+    
+    <body class="container-fluid">
       <header class="page-header header container-fluid">
         <div id="branding">
-          <img href ="Images/Rose.png" alt="Bloom Rose"/>
-                <h1>Bloom: The Legend of Apres</h1>
+          <h1>   <img src ="Images/RoseTwo.svg" class="Rose" alt="Bloom Rose"
+            width="80"
+            height="80"/>Bloom: The Legend of Apres</h1>
               </div>
               <nav>
                 <ul>
@@ -26,10 +29,15 @@
               </nav>
             </div>
           </header>
-          <div class="container">
-          <img src="Images/ThreeKingdoms.jpg" class="threeKingdoms" alt="Map of Kingdoms"/> </div>
-<h2>The Three Kingdoms:</h2>
-<h3>Apres</h3>
+          <img src="Images/ThreeKingdoms.jpg" class="threeKingdoms"  alt="Map of Kingdoms" />
+         
+<h2> The Three Kingdoms:</h2>
+<ol><li><a href="Apres">Apres</a>
+</li>
+<li><a href="Kiligian">Kiligian</a></li>
+<li><a href="Alinian">Alinian</a></li>
+</ol>
+<h3 id="Apres">Apres</h3>
 <p>Also called the Neverland or the Land of the Fairy Folk, Apres is an island located to the East of Alinian and Kiligian where magic was said to orginate.
 The people there were so full of magic, that they were called faires and lived very long lives. They shared their magic with the peoples of Kiligian and Alinian in attempts to bring 
 prosperty. However, the Queen of the Kiligian people grew envious of the people of Apres and coveted their power, wanting more than they could offer her. Consumed with greed, the evil Queen
@@ -37,14 +45,14 @@ stormeded the Kingdom of Apres and laid it to waste, killing all of the fairy fo
 <br>
 <br>Nowdays, the land of Apres is considered to be nothing but a legend. A childrens tale. Legend has it, however, that the key to restoring the lost Kingdom dwells in Alinian.
 </p>
-<h3>Kiligian</h3>
+<h3 id="Kiligian">Kiligian</h3>
 <p>Kiligian is in the southern most region of the mainland, and is the kingdom of an evil queen that supposibly destroyed Apres. It's people are adapt at illusion and changling magic. They are known for being
   cunning and dangerous warriors. For the past hundred years, Kiligian has been at war with Alinian, declaring their magic the superior magic and desiring land in the north. However, rumor has it that their Kiligian hunters,
   wild warriors who take the shape of beasts, are searching Alinian for the last Apresians. 
 <br>
 <br>Recently, it's princess, Poinsettia, has vanished. Gossip claims that she was killed by a Kiligian hunter, though some people theorize she may still be alive.
 </p>
-<h3>Alinian</h3>
+<h3 id="Alinian">Alinian</h3>
 <p>The Northernmost land, Alinian is known for being the sunlight kingdom. Its people were gifted light based magic and can often converse with animals. They have been at war with Kiligian
   since the Queen of Kiligian cut off the seafare trade routes between Kiligian and Alinian. This war has continued for nearly a hundred years. At the borders of Alinian, where the Mystic Woods can be found, a secert collection of warriors
   called the Merry Men have been aiding in driving Kiligian warriors off. 
@@ -56,8 +64,7 @@ stormeded the Kingdom of Apres and laid it to waste, killing all of the fairy fo
 <p>There have been whispers throughout Alinian and Kiligian about a girl with green skin who possesses the traits of the long dead Apresian people. Any information regaurding this young woman or her whereabouts must be brought to the King immedately.</p>
           <P id='Lore'></P> <!--HTML for while Loop-->
       <script src="JS/Lore.js"></script>
-    </body>
-    <footer class="page-footer footer container-fluid">
+      <footer class="page-footer footer container-fluid">
       <div class="container">
           <div class="row">
               <div class="col-lg-8 col-md-8 col-sm-12">
@@ -67,4 +74,6 @@ stormeded the Kingdom of Apres and laid it to waste, killing all of the fairy fo
 </div>
 </div>
     </Footer>
+    </body>
+    
 </html>

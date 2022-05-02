@@ -37,16 +37,15 @@ header{
     margin-top: 10px;
   }
   
-  header .highlight, header .current a{
-    color: #305c06;
-    font-weight: bold;
-  }
   
   header a:hover{
     color: #cccccc;
     font-weight: bold;
   }
 
+  Img.Thorn {padding:10px; margin:10px;}
+
+  Img.threeKingdoms {padding:10px; margin:10px; position: center; }
   /*Opening Map*/
 #Greeting {text-align: center;}
 
@@ -144,7 +143,9 @@ font-size: large;}
   body, footer {margin-left: 216px;}
 
 }
-
+ol { 
+  color: #c42a16;
+ }
   
 /*Foot*/
 
