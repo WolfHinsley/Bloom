@@ -1,0 +1,245 @@
+
+
+
+/*Header section*/
+header{
+    background: #5da718;
+    ;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 90px;
+    text-shadow: .5px 1px #a9cf86;
+  
+  }
+
+
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-shadow: .5px 1px #a9cf86;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: left;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
+
+  Img.Thorn {padding:10px; 
+    margin:10px;  
+    max-width: 100%;
+    height: auto;}
+
+  Img.threeKingdoms {padding:10px; 
+    margin:10px; 
+    position: center;   
+    max-width: 100%;
+    height: auto;}
+  
+    /*Opening Map*/
+
+  #Greeting {text-align: center;}
+
+  #welcome {
+    min-height: 400px;
+    background:url('../Images/ThreeKingdoms.jpg') no-repeat center;
+    background-size: cover;
+    border-bottom: #305c06;
+    border-bottom-width: 3pt;
+    text-align: center;
+    color: antiquewhite;
+    position: relative;
+    text-decoration: #a9cf86;
+     text-shadow: 1px 2px #a9cf86;
+     max-width: 100%;
+     height: auto;
+
+  }
+  
+  #welcome h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+ #welcome p {text-align: center; text-size-adjust: small;}
+
+#container2{display:flex;
+  background-color: antiquewhite;
+}
+
+/*Body*/
+body {
+
+    position: absolute;
+    display: grid;
+    place-items: center;
+
+    color:#305c06;
+
+    background-image: url("../Images/container.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #aa210f;
+    max-width:100%;
+    max-height:auto;
+  }
+  
+  
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #80b312 100%);
+	background-color:#b8e356;
+	border-radius:6px;
+	border:1px solid #83c41a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #80b312 5%, #b8e356 100%);
+	background-color:#80b312;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} /*Button Generator Code*/
+
+  .boxes {
+    color: #c42a16;
+    background-color: antiquewhite;
+    border: #305c06 3pts solid;
+    display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 100%;
+  margin: auto;
+  }
+
+.feature {background-color: #a9cf86;
+align-items:center;}
+
+.acc_card {position:relative;
+max-width: fit-content;
+min-width: 800pt; }
+
+.acc__title {text-align: left;
+  background-color: antiquewhite;
+ color: #c42a16;
+ max-width: 800pt;
+
+
+}
+.acc__panel {text-align: left;
+color:#305c06;
+background-color: #a9cf86;
+max-width: 800pt;
+
+overflow: auto;
+}
+
+.threeKingdoms { max-width: 100%;
+  height: auto;}
+
+.Thorn {
+  max-width: 100%;
+  height: auto; 
+  position:center;}
+
+table {background-color: #a9cf86;
+border: #305c06 3pt solid;
+color:#305c06;
+position: center;
+padding: 10pt;
+margin: 15pt;
+}
+
+table.th {border:#305c06 1pt solid;}
+
+.Green {color:#305c06;}
+
+p {background-color: antiquewhite; 
+  color: #c42a16;
+  border: 2pt #c42a16 solid;
+  box-shadow: 2pt 2pt #aa210f;
+
+  padding: 50px;
+  margin: 20px;
+font-size: large;
+max-width: 100%;
+max-height: auto;
+}
+h3 {color: #aa210f}
+
+/*paragraphs*/
+.row {  max-width: 100%;
+  margin: auto;}
+
+
+@media screen and (min-width: 480px) {
+  body, footer {margin-left: 216px;}
+
+}
+ol { 
+  color: #c42a16;
+ }
+  
+/*Foot*/
+
+footer {background-color: #305c06;
+  border-top:#5da718 3pt solid;
+    color:#ffffff;
+    text-align: left; text-size-adjust: small;}
+    /*Interactive Images*/
+    
+
+/*Form*/
+#myForm { color: #c42a16;
+  background-color: antiquewhite;
+  border: #305c06 3pts solid;
+  box-shadow: 2pt 2pt #aa210f;
+  margin: 0 auto;
+width:100%;
+height:auto;}
+
+
+    /*Repsonsive Text*/
+    html {
+      font-size: 16px;
+    }
+    @media screen and (min-width: 320px) {
+      html {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+      }
+    }
+    @media screen and (min-width: 1000px) {
+      html {
+        font-size: 22px;
+      }
+    } /*Responsive Font from Geoff Graham*/
