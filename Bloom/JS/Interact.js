@@ -15,7 +15,7 @@ function getOptions() {
 }
 //Input Based Code w3schools
 
-const weapons = ["Bow", "Sword", "Knife"];
+const weapons = ["Weapon","Bow", "Sword", "Knife"];
 document.getElementById("weapons").innerHTML = weapons; //Array
 
 
@@ -37,12 +37,21 @@ function getOptions() {
    //Reset
 
    function validateForm() {
-    let x = document.forms["myForm"]["fname"].value;
+    let x = document.forms["myForm"]["fname"].name.value;
     if (x == "") {
       alert("Name must be filled out");
       return false;
     }
   }
+
+  function myFunction() {message='Well Done!';
+  alert(message);
+  document.forms["myForm"].mybutton.value;
+    }
+
+    function fun(){  
+      document.getElementById("myForm").reset();  
+    }  
    //Warning w3schools
 
 
